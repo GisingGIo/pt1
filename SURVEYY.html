@@ -1,0 +1,200 @@
+
+<html>
+    <head>
+        <title>SURVEY</title>
+<style>
+div.slay1 {
+        font-style: Monaco;
+        font-size: 50;
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+}
+div.slay2 {
+    font-style: Monaco;
+    font-size: 20;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+div.box1 {
+    width: 100%;
+    height: 87px;
+    background-color: #374f2f;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+form { 
+    font-size: 20;
+    text-align: center;
+}
+
+div.boxx{ 
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+    width: 1000px;
+    height: 100%;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+div.boxtext{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    font-size: 50;
+}
+div.boxtext1{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 45px;
+    margin-left: 100px;
+    font-size: 50;
+    text-align: left;
+}
+div.boxtext1{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 45px;
+    margin-left: 110px;
+    font-size: 50;
+    text-align: left;
+}
+
+.class{
+    width:300px;
+    height: 30px;
+    border-width: 0px;
+    margin: 10px;
+    text-align: center;
+    background-color: #d3d3d3;
+    border-radius: 3px;
+    font-size: 20;
+}
+.class11{
+    text-align: center;
+    font-size: 25;
+    margin: 5px;
+}
+
+.selecta {
+    margin-left: 135px;
+    height: 30px;
+    width: 300px;
+    background-color: #d3d3d3;
+    border-radius: 3px;
+    border-width: 0px;
+    color: gray;
+    text-align: center;
+    
+}
+
+.button1{
+    background-color:#4b6741;
+    border-radius: 5px;
+    border-width: 0px;
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.submit{
+    width: 261px;
+margin: 5px;
+padding: 5px;
+box-shadow: 0px 0px 2.5px 0px #4b6741;
+margin-top: 20px;
+border-width: 0px;
+border-radius: 5px;
+color:  white;
+
+}
+.butones{
+    width: 261px;
+margin: 5px;
+padding: 5px;
+box-shadow: 0px 0px 2.5px 0px #4b6741;
+margin-top: 20px;
+border-width: 0px;
+border-radius: 5px;
+color:  white;
+
+}
+</style>
+    </head>
+    <body style="background-color:#4b6741">
+        <script>
+            function oneFunction() {
+          var fname = document.getElementById("fname").value;
+          var mname = document.getElementById("mname").value;
+          var lname = document.getElementById("lname").value;
+var gradelvl = document.getElementById("gradelvl").value;
+var section = document.getElementById("section").value;
+var occupation = document.getElementById("occupation").value;
+var GENDER = document.getElementById("GENDER").value;
+var GENDER1 = document.getElementById("GENDER1").value;
+
+          localStorage.setItem("fname", fname);
+          localStorage.setItem("mname", mname);
+          localStorage.setItem("lname", lname);
+localStorage.setItem("gradelvl", gradelvl);
+localStorage.setItem("section", section);
+localStorage.setItem("occupation", occupation);
+localStorage.setItem("GENDER", GENDER);
+localStorage.setItem("GENDER1", GENDER1);
+}
+        </script>
+        <div class="boxx">
+            <form>
+                <br>
+                <b><div class="boxtext">FULL NAME:</div></b>
+                <input type="text" class="class" placeholder="FirstName" name="fname" id="fname"></input>
+                <input type="text" class="class" placeholder="MiddleName" name="mname" id="mname"></input>
+                <input type="text" class="class" placeholder="LastName" name="lname" id="lname"></input><br>
+                <b><div class="boxtext">GENDER:</b><br>
+                <div class="class11">
+                <input type="radio" value="male" name="GENDER" id="GENDER">MALE</input>
+                <input type="radio" value="female" name="GENDER1" id="GENDER1">FEMALE</div></input>
+                <b><div class="boxtext1">GRADE LEVEL:<font color="white">---------</font>SECTION: </b></div>
+                <input type="text" class="class" placeholder="GradeLevel" name="gradelvl" id="gradelvl"></input>
+                <select id="section" name="section" class="selecta" name="section" id="section">
+                    <option value="RESEARCHERS">RESEARCHERS</option>
+                    <option value="DISCOVERERS">DISCOVERERS</option>
+                    <option value="ACHIEVERS">ACHIEVERS</option>
+                    <option value="DEVELOPERS">DEVELOPERS</option>
+                    <option value="INNOVATORS">INNOVATORS</option>
+                    <option value="ADVENTURERS">ADVENTURERS</option>
+                    <option value="PEARL">PEARL</option>
+                    <option value="DIAMOND">DIAMOND</option>
+                    <option value="JADE">JADE</option>
+                    <option value="TOPAZ">TOPAZ</option>
+                    <option value="EMERALD">EMERALD</option>
+                    <option value="AMETHYST">AMETHYST</option>
+                    <option value="HYDROGEN">HYDROGEN</option>
+                    <option value="OXYGEN">OXYGEN</option>
+                    <option value="GOLD">GOLD</option>
+                    <option value="SILVER">SILVER</option>
+                    <option value="RUTHERFORD">RUTHERFORD</option>
+                    <option value="FARADAY">FARADAY</option>
+                    <option value="FLEMING">FLEMING</option>
+                    <option value="DALTON">DALTON</option>
+                </select>
+                <b><div class="boxtext">OCCUPATION:</div></b>
+                <input type="text" class="class" placeholder="Occupation" name="occupation" id="occupation"></input><br>
+                <input type="submit" onclick="oneFunction()" class="submit" style="background-color:#4b6741;"></input>
+            </form>
+            <button class="butones" style="background-color: #4b6741"><a href="SURVEYYY.html">Next Page</a></button>
+            
+
+        </div>
+
+    </body>
+</html>

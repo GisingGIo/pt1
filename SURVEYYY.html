@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>SURVEYY</title>
+        <link rel="stylesheet" href="STYLESLAY.css">
+    </head>
+    <body style="background-color:#3f5a37">
+        <script>
+            function slayFunction(){
+            var DreamJob = document.getElementById("DreamJob").value;
+            var WHYDIDYOUCHOOSETHIS = document.getElementById("WHYDIDYOUCHOOSETHIS").value;
+            var AREYOUCAPABLEOFIT1 = document.getElementById("AREYOUCAPABLEOFIT1").value;
+            var AREYOUCAPABLEOFIT = document.getElementById("AREYOUCAPABLEOFIT").value;
+            var WHYDOYOUTHINKYOUARECAPABLE = document.getElementById("WHYDOYOUTHINKYOUARECAPABLE").value;
+
+            localStorage.setItem("DreamJob", DreamJob);
+            localStorage.setItem("WHYDIDYOUCHOOSETHIS", WHYDIDYOUCHOOSETHIS);
+            localStorage.setItem("AREYOUCAPABLEOFIT1", AREYOUCAPABLEOFIT1);
+            localStorage.setItem("AREYOUCAPABLEOFIT", AREYOUCAPABLEOFIT);
+            localStorage.setItem("WHYDOYOUTHINKYOUARECAPABLE", WHYDOYOUTHINKYOUARECAPABLE);
+
+            }
+
+        </script>
+        <div class="boxx1">
+            <form>
+                <br>
+                <b><div class="boxtext">DREAM JOB:</div></b>
+                <input type="text" class="class" placeholder="DreamJob" name="DreamJob" id="DreamJob"></input>
+                <b><div class="boxtext">WHY DID YOU CHOOSE THIS?</div></b>
+                <input type="text" class="textbox" placeholder="Insert your text here... (maximum 200)" name="WHYDIDYOUCHOOSETHIS" maxlength="200" id="WHYDIDYOUCHOOSETHIS"></input>
+                <b><div class="boxtext">DO YOU THINK YOU ARE CAPABLE OF THIS JOB?</b><br>
+                    <div class="class11">
+                    <input type="radio" value="yes" name="AREYOUCAPABLEOFIT" id="AREYOUCAPABLEOFIT">YES</input>
+                    <input type="radio" value="no" name="AREYOUCAPABLEOFIT1" id="AREYOUCAPABLEOFIT1">NO</div></input>
+                    <b><div class="boxtext">WHY DO YOU THINK YOU ARE CAPABLE?</div></b>
+                <input type="text" class="textbox" placeholder="Insert your text here... (maximum 200)" name="WHYDOYOUTHINKYOUARECAPABLE" maxlength="200" id="WHYDOYOUTHINKYOUARECAPABLE"></input>
+                <input type="submit" onclick="slayFunction()" style="background-color: #3f5a37" class="submit"></input>
+            </form>
+            <button class="butones" style="background-color: #3f5a37"><a href="SURVEYYYY.html">Next Page</a></button>
+        </div>
+
+    </body>
+</html>

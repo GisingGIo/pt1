@@ -1,0 +1,48 @@
+<html>
+    <head>  <title> Survey Forms </title></head>
+    <link rel="stylesheet" href="nav bar designs.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="logo.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<body> 
+    
+    
+<div class="wrapper">
+    <div class="sidebar">
+        <h2>WELCOME,<br>
+            <p id="demo">--------</p>!<br>
+            <button onclick="ror()"> CLICK THIS! </button>
+        </h2>
+       
+        <ul>
+            <li><a href="nav bar.html">Home</a></li>
+            <li><a href="Introduction Page.html">Introduction</a></li>
+            <li><a href="SURVEYY.html">Survey Forms</a></li>
+            <li><a href="Finish.html">Finish</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+           
+        </ul> 
+    </div>
+    <div class="main_content">
+        <div class="header">Home Page</div>  
+        <div class="info">
+
+
+
+
+            <script>
+                function ror(){
+                    let person = prompt("Please enter your UserName:", "");
+                    if (person == null || person == "")
+                    {
+                        text = "Welcome" + person + "! Welcome to our Home Page.";
+                    }
+                    document.getElementById("demo").innerHTML = person;
+                }
+            </script>
+                
+                
+</div></div></div></body></html>

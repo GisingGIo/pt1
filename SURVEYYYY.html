@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>SURVEYYY</title>
+        <link rel="stylesheet" href="STYLESLAY.css">
+    </head>
+    <body style="background-color:#374f2f">
+        <script>
+            function rorFunction(){
+            var ExcelenceAward = document.getElementById("ExcelenceAward").value;
+            var StrengthAndWeakness = document.getElementById("StrengthAndWeakness").value;
+            var Subject = document.getElementById("Subject").value;
+
+            localStorage.setItem("ExcelenceAward", ExcelenceAward);
+            localStorage.setItem("StrengthAndWeakness", StrengthAndWeakness);
+            localStorage.setItem("Subject", Subject);
+            }
+
+        </script>
+        <div class="boxx2">
+            <form>
+                <br>
+                <b><div class="boxtext">WHAT IS YOUR ACADEMIC EXCELENCE AWARD?</div></b>
+                <select class="selecta1" name="ExcelenceAward" id="ExcelenceAward">
+                    <option value="NOHONORS">NO HONORS</option>
+                    <option value="WITHHONORS">WITH HONORS</option>
+                    <option value="WITHHIGHHONORS">WITH HIGH HONORS</option>
+                    <option value="WITHHIGHESTHONORS">WITH HIGHEST HONORS</option>
+                </select>
+                <b><div class="boxtext">WHAT ARE YOUR ACADEMIC <br>STRENGTHS AND WEAKNESSES</div></b>
+                <input type="text" class="textbox" placeholder="Insert your text here... (maximum 200)" name="StrengthAndWeakness" maxlength="200" id="StrengthAndWeakness"></input>
+                <b><div class="boxtext">IN WHAT SUBJECT DO YOU SPECIALIZED IN?</div></b>
+                <input type="text" class="class" placeholder="Subject" name="Subject" id="Subject"></input><br>
+                <input type="submit" onclick="rorFunction()" class="submit" style="background-color: #374f2f"></input>
+                <button class="butones" style="background-color: #374f2f"><a href="SURVEYYYYY.html">Next Page</a></button>
+        </div>
+            </form>
+            
+
+    </body>
+</html>

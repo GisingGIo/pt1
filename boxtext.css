@@ -1,0 +1,29 @@
+div.boxtext{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    font-size: 50;
+}
+
+.textbox {
+    width:700px;
+    height: 150px;
+    border-width: 0px;
+    margin: 10px;
+    text-align: left;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    background-color: #d3d3d3;
+    border-radius: 3px;
+    font-size: 20;
+}
+
+div.boxx{ 
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+    width: 1000px;
+    height: 100%;
+    margin-left: 250px;
+    margin-top: 100px;
+}

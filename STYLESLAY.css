@@ -1,0 +1,177 @@
+div.slay1 {
+        font-style: Monaco;
+        font-size: 50;
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+}
+div.slay2 {
+    font-style: Monaco;
+    font-size: 20;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+div.box1 {
+    width: 100%;
+    height: 87px;
+    background-color: #374f2f;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+form { 
+    font-size: 20;
+    text-align: center;
+}
+
+div.boxx{ 
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+    width: 1000px;
+    height: 100%;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+div.boxx1{ 
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+    width: 1000px;
+    height: 920px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+div.boxx2{ 
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+    width: 1000px;
+    height: 780px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+div.boxx3{ 
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+    width: 1000px;
+    height: 210px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+div.boxtext{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    font-size: 50;
+}
+div.boxtext1{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 45px;
+    margin-left: 100px;
+    font-size: 50;
+    text-align: left;
+}
+div.boxtext1{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 45px;
+    margin-left: 110px;
+    font-size: 50;
+    text-align: left;
+}
+
+.class{
+    width:300px;
+    height: 30px;
+    border-width: 0px;
+    margin: 10px;
+    text-align: center;
+    background-color: #d3d3d3;
+    border-radius: 3px;
+    font-size: 20;
+}
+.class11{
+    text-align: center;
+    font-size: 25;
+    margin: 5px;
+}
+
+.selecta {
+    margin-left: 135px;
+    height: 30px;
+    width: 300px;
+    background-color: #d3d3d3;
+    border-radius: 3px;
+    border-width: 0px;
+    color: gray;
+    text-align: center;
+    
+}
+.selecta1 {
+    margin-left: 10px;
+    height: 30px;
+    width: 300px;
+    background-color: #d3d3d3;
+    border-radius: 3px;
+    border-width: 0px;
+    color: gray;
+    text-align: center;
+    
+}
+
+.button1{
+    background-color:#4b6741;
+    border-radius: 5px;
+    border-width: 0px;
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.submit{
+    width: 261px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 20px;
+    border-width: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.textbox {
+        width:700px;
+        height: 150px;
+        border-width: 0px;
+        margin: 10px;
+        text-align: left;
+        padding-bottom: 100px;
+        padding-left: 20px;
+        background-color: #d3d3d3;
+        border-radius: 3px;
+        font-size: 20;
+}
+
+
+.butones{
+    width: 261px;
+margin: 5px;
+padding: 5px;
+box-shadow: 0px 0px 2.5px 0px #4b6741;
+margin-top: 20px;
+border-width: 0px;
+border-radius: 5px;
+color:  white;
+}
+

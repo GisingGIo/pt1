@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>SURVEYYYY</title>
+        <link rel="stylesheet" href="STYLESLAY.css">
+    </head>
+    <body style="background-color:#31452a">
+        <script>
+            function naurFunction(){
+                var DIDYOUHAVEFUN = document.getElementById("DIDYOUHAVEFUN").value;
+                var INTERACT0IVTY10 = document.getElementById("INTERACT0IVTY10").value;
+                var EXPERIENCE10 = document.getElementById("EXPERIENCE10").value;
+
+
+
+                localStorage.setItem("DIDYOUHAVEFUN", DIDYOUHAVEFUN);
+                localStorage.setItem("INTERACT0IVTY10", INTERACT0IVTY10);
+                localStorage.setItem("EXPERIENCE10", EXPERIENCE10);
+            }
+
+
+
+
+        </script>
+        <div class="boxx">
+            <form>
+                <br>
+                <b><div class="boxtext">DID YOU HAVE FUN ANSWERING OUR SURVEY?</div></b>
+                <input type="text" class="class" placeholder="Yes or No" name="DIDYOUHAVEFUN" id="DIDYOUHAVEFUN"></input>
+                <b><div class="boxtext">ON A SCALE OF 1-10,</b> HOW DO YOU RATE OUR WEBSITE's INETERACTIVITY?</div>
+                <input type="text" class="class" placeholder="1-10" name="INTERACT0IVTY10" id="INTERACT0IVTY10"></input>
+                <b><div class="boxtext">ON A SCALE OF 1-10,</b> HOW DO YOU RATE YOUR EXPERIENCE ANSWERING THIS?</div>
+                <input type="text" class="class" placeholder="1-10" name="EXPERIENCE10" id="EXPERIENCE10"></input><br>
+                <input type="submit" onclick="naurFunction()" style="background-color: #31452a" class="submit"></input>
+                <button class="butones" style="background-color: #31452a"><a href="SURVEYYYYYY.html">Next Page</a></button>
+            </form>
+     
+    
+        </div>
+
+    </body>
+</html>
